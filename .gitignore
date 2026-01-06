@@ -1,0 +1,45 @@
+# Data (large files)
+data/0_raw/**
+data/1_selected_raw/**
+data/2_processed_data/**
+!data/**/README.md
+!data/**/.gitkeep
+
+# Outputs (generated files)
+output/figures/**
+output/tables/**
+output/models/**
+!output/.gitkeep
+
+# LaTeX auxiliary files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+paper/*.pdf
+!paper/main.pdf
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+renv/library/
+renv/staging/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temporary files
+**/temp/**
+**/*_temp.*
