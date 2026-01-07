@@ -91,4 +91,9 @@ path_output_models <- file.path(project_root, "output", "models")
 
 cat("All paths configured successfully!\n")
 
+# 0.4. LOAD FUNCTIONS AND CREDENTIALS ------------------------------------------- 
+# Load the functions
+source("code/function/R/custom_functions.R")
 
+# Load the user details
+source("U:/accounts/authentification.R")
